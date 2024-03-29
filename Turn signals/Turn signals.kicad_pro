@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.9,
-          "width": 1.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -426,13 +426,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Custom"
+    ],
     "pinned_symbol_libs": [
       "Custom"
     ]
   },
   "meta": {
-    "filename": "LED driver.kicad_pro",
+    "filename": "Turn signals.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,7 +578,7 @@
   },
   "sheets": [
     [
-      "3b6d8f14-65dd-401e-abe3-3efb7da28af6",
+      "b44ed5c2-861e-4747-929e-c828d329edc0",
       "Root"
     ]
   ],

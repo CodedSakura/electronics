@@ -7133,7 +7133,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0668750c-ef3b-41ce-8ad2-797f05ce3cac")
 		(property "Reference" "R11"
 			(at 25.4 156.21 90)
@@ -9335,10 +9334,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50890813-882e-4e72-b65c-73455e7a5233")
 		(property "Reference" "R12"
-			(at 74.93 167.6399 0)
+			(at 74.168 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,7 +9345,7 @@
 			)
 		)
 		(property "Value" "49.9K"
-			(at 74.93 170.1799 0)
+			(at 74.168 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9955,10 +9953,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cc075c1-79f7-4ed5-88cd-c1e825e33de1")
+			(uuid "1cc075c1-79f7-4ed5-88cd-c1e825e33de2")
 		)
 		(pin "2"
-			(uuid "25f2aef0-5537-42cf-813d-07616c2fecf6")
+			(uuid "25f2aef0-5537-42cf-813d-07616c2fecf7")
 		)
 		(instances
 			(project "LED driver"
@@ -10043,10 +10041,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "796c2b5c-794d-47c9-ad15-6b16236e8498")
 		(property "Reference" "R13"
-			(at 74.93 182.8799 0)
+			(at 74.168 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10052,7 @@
 			)
 		)
 		(property "Value" "16.2K"
-			(at 74.93 185.4199 0)
+			(at 74.168 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,21 +10177,21 @@
 		(dnp no)
 		(uuid "850ae40f-cb54-46e5-8565-3fe44576a26d")
 		(property "Reference" "L1"
-			(at 66.0399 158.75 0)
+			(at 64.389 155.0669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 68.5799 158.75 0)
+			(at 64.389 157.6069 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
@@ -10380,10 +10377,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f8f89ca-7474-4a29-8022-22b2bc757d1b")
 		(property "Reference" "C2"
-			(at 59.69 154.9399 0)
+			(at 58.674 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10388,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 59.69 157.4799 0)
+			(at 58.674 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +10560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f88f6df-a24d-4186-81c6-69a1c0cc1826")
+			(uuid "0f88f6df-a24d-4186-81c6-69a1c0cc1827")
 		)
 		(instances
 			(project "LED driver"
