@@ -1,0 +1,24 @@
+assuming:
+12V/24V
+5m * 5channels LED strip
+60 LED units / m
+
+data:
+https://www.superlightingled.com/300-5050-rgb-300-2835-2in1-cct-12mm-rgb-cct-led-strip-16ft-p-5831.html
+  14.4W/m
+
+math:
+14.4W/m / 5channels * 5m = 14.4W/channel
+14.4W/m * 5m = 72W
+@12V:
+  6A
+  1.2A/ch
+@24V:
+  3A
+  0.6A/ch
+
+pcb:
+@1.2A:
+  trace width = ~.4mm
+@6A:
+  trace width = ~3.5mm
