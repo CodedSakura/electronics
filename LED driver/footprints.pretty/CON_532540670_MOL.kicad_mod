@@ -5,8 +5,7 @@
 	(layer "F.Cu")
 	(tags "532540670 ")
 	(property "Reference" "REF**"
-		(at -5 -5.08 0)
-		(unlocked yes)
+		(at 5 -4.58 0)
 		(layer "F.SilkS")
 		(uuid "695c3bb5-b160-4cbd-9513-e49b6033258b")
 		(effects
@@ -17,9 +16,10 @@
 		)
 	)
 	(property "Value" "CON_532540670_MOL"
-		(at -5 -5.08 0)
+		(at 4.5 -4.58 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3e77ed53-91a1-4f84-a316-452fba616084")
 		(effects
 			(font
@@ -246,46 +246,10 @@
 		(uuid "6a4c0860-68d5-49dc-961d-ff0492776289")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5 -5.08 0)
+		(at 5 -4.58 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "94a5927d-d672-49ce-9d8a-a9b72eb27618")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "TIN_PLATING,_TRAY"
-		(at -5 -7.809999 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "b5904f1c-b127-4da9-81da-abbbba89c9ff")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "532540670"
-		(at -5 -12.889999 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "b9759678-7fd5-4c49-a11d-435e12baba09")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "MICRO-LATCH_WIRE-TO-BOARD_SR_RA_HDR_-6_CKT"
-		(at -5 -10.349999 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "bf4ef749-8a7f-41a8-8311-b8bedc49a21a")
 		(effects
 			(font
 				(size 1 1)
