@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|107204250|92632500|991a4089-3995-4ab7-928b-723ade391b29|7428959c-8a19-4739-86d2-c060e2d831d8",
-        "copper_edge_clearance|108154250|91952500|991a4089-3995-4ab7-928b-723ade391b29|562b4531-374f-46ad-a923-ef4da526a2f9",
-        "copper_edge_clearance|108464250|91402500|991a4089-3995-4ab7-928b-723ade391b29|d16d99a2-7eb9-4e76-a4e2-95c0169ea98f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -186,6 +182,7 @@
         0.2,
         0.5,
         1.0,
+        1.75,
         2.5
       ],
       "tuning_pattern_settings": {
@@ -456,7 +453,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Custom"
+    ],
     "pinned_symbol_libs": [
       "Custom"
     ]
