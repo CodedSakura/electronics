@@ -1971,302 +1971,6 @@
 				)
 			)
 		)
-		(symbol "Custom:IRFZ44NS"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRFZ44NS_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Custom:MP2359"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3585,1190 +3289,6 @@
 				)
 			)
 		)
-		(symbol "IRFZ44NS_1"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NS_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRFZ44NS_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRFZ44NS_2"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NS_2_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRFZ44NS_2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRFZ44NS_3"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NS_3_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRFZ44NS_3_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "IRFZ44NS_4"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFZ44NS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRFZ44NS_4_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRFZ44NS_4_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "R_1"
 			(pin_numbers hide)
 			(pin_names
@@ -5026,6 +3546,301 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:ZXMN3A01F"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ZXMN3A01F"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZXMN3A01F_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "ZXMN3A01F_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5373,12 +4188,6 @@
 		)
 	)
 	(junction
-		(at 120.65 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02e56213-7238-4451-9931-9f3ee65ba3d9")
-	)
-	(junction
 		(at 125.73 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5413,6 +4222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48518a1b-34e7-4eb4-bb57-e42ce1601550")
+	)
+	(junction
+		(at 120.65 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55839fb0-eed9-443b-bb44-a6fc393e1677")
 	)
 	(junction
 		(at 113.03 177.8)
@@ -5475,6 +4290,12 @@
 		(uuid "9f16f101-17cc-4c7b-b581-0c2ab41bfcc7")
 	)
 	(junction
+		(at 120.65 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae56255d-d063-44b9-8e41-a1871b21952b")
+	)
+	(junction
 		(at 67.31 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5503,12 +4324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d18b636f-b6d4-4c8a-a16d-f9902bddd28b")
-	)
-	(junction
-		(at 120.65 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da815e23-aa43-4c91-9338-4f8cb14e09bd")
 	)
 	(junction
 		(at 39.37 160.02)
@@ -5556,7 +4371,7 @@
 	)
 	(bus_entry
 		(at 90.17 78.74)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5565,7 +4380,7 @@
 	)
 	(bus_entry
 		(at 95.25 68.58)
-		(size -2.54 2.54)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5574,7 +4389,7 @@
 	)
 	(bus_entry
 		(at 143.51 74.93)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5583,7 +4398,7 @@
 	)
 	(bus_entry
 		(at 90.17 63.5)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5591,8 +4406,8 @@
 		(uuid "2b53df21-9d66-4bbb-9964-194931015852")
 	)
 	(bus_entry
-		(at 209.55 35.56)
-		(size 2.54 -2.54)
+		(at 212.09 33.02)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5601,7 +4416,7 @@
 	)
 	(bus_entry
 		(at 143.51 72.39)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5610,7 +4425,7 @@
 	)
 	(bus_entry
 		(at 90.17 86.36)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5619,7 +4434,7 @@
 	)
 	(bus_entry
 		(at 90.17 73.66)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5628,7 +4443,7 @@
 	)
 	(bus_entry
 		(at 123.19 72.39)
-		(size -2.54 2.54)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5637,7 +4452,7 @@
 	)
 	(bus_entry
 		(at 90.17 71.12)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5645,8 +4460,8 @@
 		(uuid "86782514-77b5-42e9-b445-0d1a82f11052")
 	)
 	(bus_entry
-		(at 209.55 111.76)
-		(size 2.54 -2.54)
+		(at 212.09 109.22)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5655,7 +4470,7 @@
 	)
 	(bus_entry
 		(at 90.17 66.04)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5663,8 +4478,8 @@
 		(uuid "999ca893-a39e-4373-b488-88f02c3eb526")
 	)
 	(bus_entry
-		(at 209.55 137.16)
-		(size 2.54 -2.54)
+		(at 212.09 134.62)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5672,8 +4487,8 @@
 		(uuid "a1dcbeb3-51d3-4882-8579-e88056b62252")
 	)
 	(bus_entry
-		(at 209.55 60.96)
-		(size 2.54 -2.54)
+		(at 212.09 58.42)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5682,7 +4497,7 @@
 	)
 	(bus_entry
 		(at 90.17 68.58)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5690,8 +4505,8 @@
 		(uuid "b1f15ae1-200b-487d-8df5-ea75c1258f89")
 	)
 	(bus_entry
-		(at 209.55 86.36)
-		(size 2.54 -2.54)
+		(at 212.09 83.82)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5700,7 +4515,7 @@
 	)
 	(bus_entry
 		(at 123.19 74.93)
-		(size -2.54 2.54)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5709,7 +4524,7 @@
 	)
 	(bus_entry
 		(at 90.17 76.2)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5718,7 +4533,7 @@
 	)
 	(bus_entry
 		(at 90.17 81.28)
-		(size 2.54 2.54)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -5764,6 +4579,16 @@
 			(type default)
 		)
 		(uuid "09bf69f6-8428-494d-aada-654051abf0e3")
+	)
+	(bus
+		(pts
+			(xy 209.55 81.28) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c96e139-79ea-4979-ae19-97576dbba0f1")
 	)
 	(wire
 		(pts
@@ -5855,6 +4680,16 @@
 		)
 		(uuid "14d1cef3-edac-4479-808a-2ada2c1a578a")
 	)
+	(bus
+		(pts
+			(xy 92.71 68.58) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e481bf-2975-4224-815c-2976be63fa8b")
+	)
 	(wire
 		(pts
 			(xy 238.76 101.6) (xy 238.76 104.14)
@@ -5884,6 +4719,16 @@
 			(type default)
 		)
 		(uuid "18f5c7b1-5522-40aa-bf2e-e506d8ff63cb")
+	)
+	(bus
+		(pts
+			(xy 209.55 55.88) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1976851b-19c2-4722-a483-2b53c6118d59")
 	)
 	(wire
 		(pts
@@ -5965,6 +4810,16 @@
 		)
 		(uuid "1f58e5d1-ac67-47b1-99df-e171edfffbb0")
 	)
+	(bus
+		(pts
+			(xy 146.05 72.39) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214099e7-6258-44c6-8934-5ff105b8bb28")
+	)
 	(wire
 		(pts
 			(xy 58.42 157.48) (xy 71.12 157.48)
@@ -5974,16 +4829,6 @@
 			(type default)
 		)
 		(uuid "220aea66-9458-48ef-baf1-9f86ba7c41f8")
-	)
-	(bus
-		(pts
-			(xy 92.71 76.2) (xy 92.71 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f1c319-a11c-44ac-909d-c75352a16e07")
 	)
 	(wire
 		(pts
@@ -6035,16 +4880,6 @@
 		)
 		(uuid "2c9f07ce-f621-4613-b8fc-0a44b6180835")
 	)
-	(bus
-		(pts
-			(xy 120.65 77.47) (xy 120.65 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d017b56-a2ff-48c5-bc79-fcdda04f44ce")
-	)
 	(wire
 		(pts
 			(xy 257.81 53.34) (xy 257.81 128.27)
@@ -6057,7 +4892,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 81.28) (xy 92.71 83.82)
+			(xy 92.71 76.2) (xy 92.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6097,7 +4932,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 140.97) (xy 120.65 140.97)
+			(xy 92.71 29.21) (xy 120.65 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6115,16 +4950,6 @@
 		)
 		(uuid "36c6c18b-cb9b-4322-b06c-ca8e0aec3a02")
 	)
-	(bus
-		(pts
-			(xy 146.05 77.47) (xy 146.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "372ddab5-37ef-4826-8373-5afd8246388e")
-	)
 	(wire
 		(pts
 			(xy 77.47 50.8) (xy 77.47 44.45)
@@ -6134,16 +4959,6 @@
 			(type default)
 		)
 		(uuid "3755350b-5991-4417-97e4-09e02117d020")
-	)
-	(bus
-		(pts
-			(xy 209.55 140.97) (xy 209.55 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376d4026-2c46-49da-a710-50d375c76540")
 	)
 	(wire
 		(pts
@@ -6157,7 +4972,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 78.74) (xy 92.71 81.28)
+			(xy 92.71 73.66) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6184,6 +4999,16 @@
 			(type default)
 		)
 		(uuid "3e8745f0-cafd-4889-be33-e90d48c3a040")
+	)
+	(bus
+		(pts
+			(xy 92.71 71.12) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438ee785-c877-4723-bff5-e12deaca0907")
 	)
 	(wire
 		(pts
@@ -6244,6 +5069,16 @@
 			(type default)
 		)
 		(uuid "4c5538e8-9ee7-400f-ac5f-553106e90180")
+	)
+	(bus
+		(pts
+			(xy 92.71 63.5) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddb1d8b-ac6c-4550-ad94-3a9a369b601a")
 	)
 	(wire
 		(pts
@@ -6405,6 +5240,16 @@
 		)
 		(uuid "64d0df4e-f4b5-4884-a933-efed6bbf3d00")
 	)
+	(bus
+		(pts
+			(xy 209.55 30.48) (xy 209.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f1937b-ef0a-496a-bb64-3ea8e5f912e0")
+	)
 	(wire
 		(pts
 			(xy 25.4 160.02) (xy 25.4 170.18)
@@ -6414,16 +5259,6 @@
 			(type default)
 		)
 		(uuid "67028791-2c02-4ace-86f8-9b220e855a8b")
-	)
-	(bus
-		(pts
-			(xy 92.71 68.58) (xy 92.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "674ac8be-b704-40b6-b2ce-e92e8254bf71")
 	)
 	(wire
 		(pts
@@ -6494,16 +5329,6 @@
 			(type default)
 		)
 		(uuid "6abfff36-b688-41ef-8a5e-a1789570e4b9")
-	)
-	(bus
-		(pts
-			(xy 209.55 111.76) (xy 209.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6baefe36-d089-427d-82ef-607444dcbf2b")
 	)
 	(wire
 		(pts
@@ -6584,16 +5409,6 @@
 			(type default)
 		)
 		(uuid "76ff01a0-0692-4847-93a8-9756c62ee7de")
-	)
-	(bus
-		(pts
-			(xy 92.71 73.66) (xy 92.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b0829d-a6e5-4c9b-a4b6-04bede95c334")
 	)
 	(wire
 		(pts
@@ -6687,13 +5502,13 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 137.16) (xy 209.55 111.76)
+			(xy 146.05 59.69) (xy 120.65 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "809822d6-caad-4299-bb2c-f692079468ee")
+		(uuid "80c7134e-3ed6-49a8-9854-9d358ff0bff3")
 	)
 	(wire
 		(pts
@@ -6737,13 +5552,23 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 140.97) (xy 209.55 140.97)
+			(xy 146.05 69.85) (xy 146.05 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a3b2839-66c7-4bfd-8668-156b7737a0b2")
+		(uuid "883ead07-b6f4-497d-99ee-d044af8981a1")
+	)
+	(bus
+		(pts
+			(xy 209.55 106.68) (xy 209.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894bae93-d44e-43f5-82c4-fce1f0267e73")
 	)
 	(wire
 		(pts
@@ -6777,13 +5602,13 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 80.01) (xy 120.65 140.97)
+			(xy 209.55 29.21) (xy 209.55 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e185384-2b17-4a79-b9b7-56c31c0d7c8d")
+		(uuid "8d596184-f1a4-4a2e-baa5-17f9a08e9584")
 	)
 	(wire
 		(pts
@@ -6795,16 +5620,6 @@
 		)
 		(uuid "8f40ce35-3b1f-4908-b016-f8428dc0f0ad")
 	)
-	(bus
-		(pts
-			(xy 92.71 88.9) (xy 92.71 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9179acda-ee7f-4dfa-8a24-9ba3af821be8")
-	)
 	(wire
 		(pts
 			(xy 40.64 107.95) (xy 40.64 109.22)
@@ -6814,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "92a63fd0-7d30-43c8-b56b-d9c6ad8a62b6")
-	)
-	(bus
-		(pts
-			(xy 92.71 66.04) (xy 92.71 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c1c6f7-866c-4160-896d-14f145d27911")
 	)
 	(wire
 		(pts
@@ -6965,6 +5770,26 @@
 		)
 		(uuid "a2e391d5-c9c5-4ba8-8524-36299934ab56")
 	)
+	(bus
+		(pts
+			(xy 92.71 60.96) (xy 92.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3243f38-c53c-47ce-83dd-743403527712")
+	)
+	(bus
+		(pts
+			(xy 92.71 60.96) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3427664-2d81-4289-ba2b-c568a1b1753d")
+	)
 	(wire
 		(pts
 			(xy 63.5 38.1) (xy 67.31 38.1)
@@ -6977,7 +5802,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 74.93) (xy 120.65 77.47)
+			(xy 120.65 69.85) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7115,6 +5940,16 @@
 		)
 		(uuid "b4a96cd7-6bc9-46bb-943c-91aba6dafa10")
 	)
+	(bus
+		(pts
+			(xy 120.65 29.21) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6615c54-6148-49a0-a15c-31a1bc6e233f")
+	)
 	(wire
 		(pts
 			(xy 50.8 63.5) (xy 54.61 63.5)
@@ -7215,6 +6050,16 @@
 		)
 		(uuid "c137fbd2-f179-41f2-aa59-d1b234088647")
 	)
+	(bus
+		(pts
+			(xy 120.65 29.21) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db24e0-6e22-4c6e-8864-021b76ca8d58")
+	)
 	(wire
 		(pts
 			(xy 212.09 109.22) (xy 220.98 109.22)
@@ -7224,6 +6069,16 @@
 			(type default)
 		)
 		(uuid "c536a021-dacd-484b-87d4-8a84b17a542e")
+	)
+	(bus
+		(pts
+			(xy 120.65 59.69) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53991f3-a764-4448-b223-6e6bd986b5c6")
 	)
 	(wire
 		(pts
@@ -7277,23 +6132,13 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 83.82) (xy 92.71 88.9)
+			(xy 92.71 66.04) (xy 92.71 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce5add46-84e9-4271-8eae-7f427258e3d6")
-	)
-	(bus
-		(pts
-			(xy 146.05 80.01) (xy 120.65 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced347af-777b-44a1-ac28-a57551b673a6")
+		(uuid "ce47c4a9-7ced-46da-abd7-b452839298c2")
 	)
 	(wire
 		(pts
@@ -7315,16 +6160,6 @@
 		)
 		(uuid "d46ee317-bc7f-415e-8265-f895761bc712")
 	)
-	(bus
-		(pts
-			(xy 146.05 74.93) (xy 146.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a2c949-7039-446d-9158-02bd968572f1")
-	)
 	(wire
 		(pts
 			(xy 36.83 76.2) (xy 36.83 77.47)
@@ -7334,16 +6169,6 @@
 			(type default)
 		)
 		(uuid "e0eb176d-4c78-4f6c-ae8e-0db8da2048d0")
-	)
-	(bus
-		(pts
-			(xy 209.55 86.36) (xy 209.55 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e139c01b-a3c5-4fa2-bae6-3623e41398a8")
 	)
 	(wire
 		(pts
@@ -7374,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "e7637758-755f-4873-b155-045639414d2b")
-	)
-	(bus
-		(pts
-			(xy 92.71 71.12) (xy 92.71 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e607bb-b303-4d80-b27e-8feb8d0d5d72")
 	)
 	(wire
 		(pts
@@ -7465,16 +6280,6 @@
 		)
 		(uuid "f19c38a0-ffdb-4b66-b6b6-abea7c6c4ace")
 	)
-	(bus
-		(pts
-			(xy 209.55 60.96) (xy 209.55 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f238d54b-6f61-4123-bfe6-6b378e30fd0d")
-	)
 	(wire
 		(pts
 			(xy 228.6 58.42) (xy 229.87 58.42)
@@ -7484,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "f27a7b10-4483-4107-ad4d-051837a9eac2")
+	)
+	(bus
+		(pts
+			(xy 92.71 78.74) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2da2315-907e-4076-829f-6300f5985c51")
 	)
 	(wire
 		(pts
@@ -8494,7 +7309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:IRFZ44NS")
+		(lib_id "Transistor_FET:ZXMN3A01F")
 		(at 236.22 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8512,7 +7327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NS"
+		(property "Value" "ZXMN3A01F"
 			(at 242.57 34.2899 0)
 			(effects
 				(font
@@ -8521,7 +7336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 241.3 34.925 0)
 			(effects
 				(font
@@ -8532,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -8542,7 +7357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -9321,8 +8136,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IRFZ44NS_4")
-		(lib_id "Custom:IRFZ44NS")
+		(lib_id "Transistor_FET:ZXMN3A01F")
 		(at 236.22 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9340,7 +8154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NS"
+		(property "Value" "ZXMN3A01F"
 			(at 242.57 59.6899 0)
 			(effects
 				(font
@@ -9349,7 +8163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 241.3 60.325 0)
 			(effects
 				(font
@@ -9360,7 +8174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
 			(at 241.3 62.23 0)
 			(effects
 				(font
@@ -9370,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 236.22 58.42 0)
 			(effects
 				(font
@@ -9803,8 +8617,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IRFZ44NS_2")
-		(lib_id "Custom:IRFZ44NS")
+		(lib_id "Transistor_FET:ZXMN3A01F")
 		(at 236.22 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9822,7 +8635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NS"
+		(property "Value" "ZXMN3A01F"
 			(at 242.57 135.8899 0)
 			(effects
 				(font
@@ -9831,7 +8644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 241.3 136.525 0)
 			(effects
 				(font
@@ -9842,7 +8655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
 			(at 241.3 138.43 0)
 			(effects
 				(font
@@ -9852,7 +8665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 236.22 134.62 0)
 			(effects
 				(font
@@ -10166,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 40.64 48.26 90)
 			(effects
 				(font
@@ -12826,8 +11639,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IRFZ44NS_1")
-		(lib_id "Custom:IRFZ44NS")
+		(lib_id "Transistor_FET:ZXMN3A01F")
 		(at 236.22 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12845,7 +11657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NS"
+		(property "Value" "ZXMN3A01F"
 			(at 242.57 110.4899 0)
 			(effects
 				(font
@@ -12854,7 +11666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 241.3 111.125 0)
 			(effects
 				(font
@@ -12865,7 +11677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -12875,7 +11687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 236.22 109.22 0)
 			(effects
 				(font
@@ -12903,8 +11715,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IRFZ44NS_3")
-		(lib_id "Custom:IRFZ44NS")
+		(lib_id "Transistor_FET:ZXMN3A01F")
 		(at 236.22 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12922,7 +11733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44NS"
+		(property "Value" "ZXMN3A01F"
 			(at 242.57 85.0899 0)
 			(effects
 				(font
@@ -12931,7 +11742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 241.3 85.725 0)
 			(effects
 				(font
@@ -12942,7 +11753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRFZ44NS-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a40153563b43a5220f"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf"
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -12952,7 +11763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "49A Id, 55V Vds, 17.5mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK"
+		(property "Description" "2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 236.22 83.82 0)
 			(effects
 				(font
