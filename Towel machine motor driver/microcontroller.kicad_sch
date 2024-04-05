@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0488ef21-5562-497a-8ab8-193c3b4f8f20")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PWM_B_RVR"
+		(shape output)
+		(at 121.92 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09621e61-b520-44c6-a688-0f14fbfd9adf")
+	)
+	(hierarchical_label "PWM_B_FWD"
+		(shape output)
+		(at 123.19 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "123cb473-3d00-4eb9-aba9-2ad0017aaeab")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 144.78 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78b64200-21ed-48d1-bdf4-aa5116047f58")
+	)
+	(hierarchical_label "CH_SEL"
+		(shape output)
+		(at 115.57 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8195fb50-e4c0-42a8-b081-66b53e885959")
+	)
+	(hierarchical_label "SIG"
+		(shape bidirectional)
+		(at 123.19 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92c68d9d-df00-4104-bbba-879f343f100f")
+	)
+	(hierarchical_label "PWM_A_FWD"
+		(shape output)
+		(at 121.92 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3037926-354a-42e0-af3e-2052c9d506a2")
+	)
+	(hierarchical_label "UART"
+		(shape bidirectional)
+		(at 143.51 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b18670b7-888b-42b6-a44c-5c50684b6f7d")
+	)
+	(hierarchical_label "PWM_A_RVR"
+		(shape output)
+		(at 123.19 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e849403e-b8fd-4123-9980-34111d6fada0")
+	)
+)

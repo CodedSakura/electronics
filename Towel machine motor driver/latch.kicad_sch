@@ -1,0 +1,32 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9b6140fd-af7c-4549-afeb-ed35a48a5674")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "OUTPUT"
+		(shape output)
+		(at 134.62 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dae40340-fb09-4d5c-a66b-f90db1969cab")
+	)
+	(hierarchical_label "INPUT"
+		(shape tri_state)
+		(at 138.43 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3143134-6fbf-408c-b119-e651ba8e165f")
+	)
+)

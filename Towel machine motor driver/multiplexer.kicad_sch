@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8878886e-778e-4f23-9f5e-d234980a9944")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "IO1"
+		(shape bidirectional)
+		(at 113.03 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "062d908c-9b9d-4082-bd57-adfecdc2c63d")
+	)
+	(hierarchical_label "SIG"
+		(shape bidirectional)
+		(at 120.65 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07dd1543-5974-4775-bd1a-d2f192b75f8a")
+	)
+	(hierarchical_label "CHSEL"
+		(shape input)
+		(at 110.49 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15500180-75b0-479d-a9a8-2c4b014b21c8")
+	)
+	(hierarchical_label "IO2"
+		(shape bidirectional)
+		(at 113.03 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "183190a5-630c-4b2d-a1c9-a45a34843d35")
+	)
+	(hierarchical_label "IO3"
+		(shape bidirectional)
+		(at 113.03 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25d428a8-21c5-4e1d-a5f3-43f7f40fb366")
+	)
+	(hierarchical_label "IO4"
+		(shape bidirectional)
+		(at 113.03 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "845eee79-4b6a-41ab-9bf1-f63c64014d17")
+	)
+	(hierarchical_label "IO9-16"
+		(shape bidirectional)
+		(at 114.3 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5197b4d-7858-4675-8ba3-ac5827d864a5")
+	)
+	(hierarchical_label "IO5-8"
+		(shape bidirectional)
+		(at 116.84 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d79e9d98-3151-49cb-86f6-bfb8179592fa")
+	)
+)

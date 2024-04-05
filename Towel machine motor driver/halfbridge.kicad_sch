@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1d2636bb-08a0-4340-87ef-dc4b64be05a0")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "M-"
+		(shape output)
+		(at 95.25 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0273b7b0-a8f1-4a73-9b03-5ab8629021a2")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 95.25 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08f20eab-49b5-4316-8ad1-98b739902479")
+	)
+	(hierarchical_label "PWM_FWD"
+		(shape input)
+		(at 118.11 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e9c32ce-1f98-448c-94bd-8951c63d85ef")
+	)
+	(hierarchical_label "PWM_RVR"
+		(shape input)
+		(at 118.11 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "480b64cb-e39d-4dda-981d-bfc2de141c00")
+	)
+	(hierarchical_label "COUNTER"
+		(shape output)
+		(at 118.11 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79d937fa-a78f-4785-a51b-0866e2efb73d")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 118.11 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e15ed2a-c455-46a9-a3c1-9b2c49163616")
+	)
+	(hierarchical_label "M+"
+		(shape output)
+		(at 95.25 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c598baa6-f5cb-4166-bd9d-c229b5571cac")
+	)
+)
