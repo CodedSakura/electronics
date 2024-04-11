@@ -2239,7 +2239,7 @@
 		(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F1"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(uuid "5ce2d6f5-5503-421e-a848-f8c85212bc46")
 			(effects
@@ -2250,7 +2250,7 @@
 			)
 		)
 		(property "Value" "24VDC 10A"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(uuid "e718e03a-d998-4f64-8218-7ffd804a4519")
 			(effects
@@ -2402,7 +2402,7 @@
 			(uuid "cd5ff2c8-306b-418e-894b-d99b0e493a36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4989233b-5928-4e03-b2c0-0a1ccf55e3d5")
 			(effects
@@ -6625,7 +6625,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at 0.001508 1.458036 270)
+			(at 0.001508 1.458036 -90)
 			(layer "F.SilkS")
 			(uuid "6c2010c7-c69b-4eb7-ae5b-02e1fdf31d09")
 			(effects
@@ -6636,7 +6636,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7c489552-70bf-4d37-960e-8cc50927ca51")
 			(effects
@@ -6788,7 +6788,7 @@
 			(uuid "01623f45-58f2-4b68-90c1-da1eb40bdbca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "481cb169-9eb8-43b1-b925-ea14d9270856")
 			(effects
