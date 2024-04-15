@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "${KIPRJMOD}/ESP32-C3-MINI-1-N4")(options "")(descr ""))
 )
