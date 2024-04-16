@@ -2,6 +2,159 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "AP9211"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP9211"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:U-DNF2030-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0017878927/DIOD-S-A0017905852-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP9211_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AP9211_1_1"
+			(pin input line
+				(at -2.54 -8.89 90)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "VM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 2.54 -8.89 90)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ESP32-C3-MINI-1-N4"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -133,7 +286,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_4"
@@ -223,7 +376,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_5"
@@ -259,7 +412,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_6"
@@ -403,7 +556,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_7"
@@ -421,7 +574,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_8"
@@ -475,7 +628,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_9"
@@ -493,7 +646,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_10"
@@ -565,7 +718,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_11"
@@ -583,7 +736,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_12"
@@ -601,7 +754,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_13"
@@ -619,7 +772,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_14"
@@ -709,7 +862,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_1"
@@ -1159,7 +1312,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_2"
@@ -1195,7 +1348,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -13.97 6.35 0)
 				(length 5.08) hide
 				(name "NC_3"
@@ -2415,6 +2568,172 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "VBAT"
+		(power)
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VBAT_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VBAT_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP9221"
+		(extends "AP9211")
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP9211"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:U-DNF2030-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0012884324/DIOD-S-A0012884324-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SINGLE CHIP BATTERY PROTECTION SOLUTION FOR 1-CELL Li+ BATTERY PACK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
