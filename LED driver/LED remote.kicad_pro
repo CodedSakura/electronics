@@ -236,7 +236,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Custom"
+      "Custom",
+      "footprints"
     ],
     "pinned_symbol_libs": [
       "Custom"
@@ -389,10 +390,6 @@
     [
       "d1d58b4a-1866-4163-b33a-28302942a2a5",
       "Root"
-    ],
-    [
-      "527ed198-b038-49f6-aaed-c518c51bedf5",
-      "BMS"
     ]
   ],
   "text_variables": {}

@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SINGLE CHIP SOLUTION FOR 1-CELL Li+ BATTERY PACK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/ed7212a3cdbf2bc3984a946eab5596f0/ESP32C3-MINI.pdf"
 			(at 29.21 -194.92 0)
 			(effects
 				(font
@@ -269,8 +269,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08)
+				(at 0 -15.24 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -287,8 +287,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_4"
 					(effects
 						(font
@@ -305,8 +305,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_3"
 					(effects
 						(font
@@ -323,8 +323,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 10.16 180)
-				(length 5.08)
+				(at 11.43 10.16 180)
+				(length 2.54)
 				(name "IO0"
 					(effects
 						(font
@@ -341,8 +341,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 7.62 180)
-				(length 5.08)
+				(at 11.43 7.62 180)
+				(length 2.54)
 				(name "IO1"
 					(effects
 						(font
@@ -359,8 +359,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_4"
 					(effects
 						(font
@@ -377,8 +377,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_5"
 					(effects
 						(font
@@ -395,8 +395,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 0 0)
-				(length 5.08)
+				(at -11.43 0 0)
+				(length 2.54)
 				(name "IO10"
 					(effects
 						(font
@@ -413,8 +413,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_6"
 					(effects
 						(font
@@ -431,8 +431,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 0 180)
-				(length 5.08)
+				(at 11.43 0 180)
+				(length 2.54)
 				(name "IO4"
 					(effects
 						(font
@@ -449,8 +449,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -2.54 180)
-				(length 5.08)
+				(at 11.43 -2.54 180)
+				(length 2.54)
 				(name "IO5"
 					(effects
 						(font
@@ -467,8 +467,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_2"
 					(effects
 						(font
@@ -485,8 +485,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -5.08 180)
-				(length 5.08)
+				(at 11.43 -5.08 180)
+				(length 2.54)
 				(name "IO6"
 					(effects
 						(font
@@ -503,8 +503,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -7.62 180)
-				(length 5.08)
+				(at 11.43 -7.62 180)
+				(length 2.54)
 				(name "IO7"
 					(effects
 						(font
@@ -521,8 +521,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -10.16 180)
-				(length 5.08)
+				(at 11.43 -10.16 180)
+				(length 2.54)
 				(name "IO8"
 					(effects
 						(font
@@ -539,8 +539,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 2.54 0)
-				(length 5.08)
+				(at -11.43 2.54 0)
+				(length 2.54)
 				(name "IO9"
 					(effects
 						(font
@@ -557,8 +557,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_7"
 					(effects
 						(font
@@ -575,8 +575,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_8"
 					(effects
 						(font
@@ -593,8 +593,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -2.54 0)
-				(length 5.08)
+				(at -11.43 -2.54 0)
+				(length 2.54)
 				(name "IO18"
 					(effects
 						(font
@@ -611,8 +611,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -5.08 0)
-				(length 5.08)
+				(at -11.43 -5.08 0)
+				(length 2.54)
 				(name "IO19"
 					(effects
 						(font
@@ -629,8 +629,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_9"
 					(effects
 						(font
@@ -647,8 +647,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_10"
 					(effects
 						(font
@@ -665,8 +665,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 17.78 270)
-				(length 5.08)
+				(at 0 15.24 270)
+				(length 2.54)
 				(name "3V3"
 					(effects
 						(font
@@ -683,8 +683,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -7.62 0)
-				(length 5.08)
+				(at -11.43 -7.62 0)
+				(length 2.54)
 				(name "RXD0"
 					(effects
 						(font
@@ -701,8 +701,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -10.16 0)
-				(length 5.08)
+				(at -11.43 -10.16 0)
+				(length 2.54)
 				(name "TXD0"
 					(effects
 						(font
@@ -719,8 +719,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_11"
 					(effects
 						(font
@@ -737,8 +737,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_12"
 					(effects
 						(font
@@ -755,8 +755,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_13"
 					(effects
 						(font
@@ -773,8 +773,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_14"
 					(effects
 						(font
@@ -791,8 +791,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_5"
 					(effects
 						(font
@@ -809,8 +809,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_6"
 					(effects
 						(font
@@ -827,8 +827,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_7"
 					(effects
 						(font
@@ -845,8 +845,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_8"
 					(effects
 						(font
@@ -863,8 +863,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_1"
 					(effects
 						(font
@@ -881,8 +881,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_9"
 					(effects
 						(font
@@ -899,8 +899,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_10"
 					(effects
 						(font
@@ -917,8 +917,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_11"
 					(effects
 						(font
@@ -935,8 +935,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_12"
 					(effects
 						(font
@@ -953,8 +953,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_13"
 					(effects
 						(font
@@ -971,8 +971,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_14"
 					(effects
 						(font
@@ -989,8 +989,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_15"
 					(effects
 						(font
@@ -1007,8 +1007,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_16"
 					(effects
 						(font
@@ -1025,8 +1025,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_17"
 					(effects
 						(font
@@ -1043,8 +1043,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_18"
 					(effects
 						(font
@@ -1061,8 +1061,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 5.08 180)
-				(length 5.08)
+				(at 11.43 5.08 180)
+				(length 2.54)
 				(name "IO2"
 					(effects
 						(font
@@ -1079,8 +1079,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_19"
 					(effects
 						(font
@@ -1097,8 +1097,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_20"
 					(effects
 						(font
@@ -1115,8 +1115,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_21"
 					(effects
 						(font
@@ -1133,8 +1133,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_22"
 					(effects
 						(font
@@ -1151,8 +1151,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_23"
 					(effects
 						(font
@@ -1169,8 +1169,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_24"
 					(effects
 						(font
@@ -1187,8 +1187,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_25"
 					(effects
 						(font
@@ -1205,8 +1205,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_26"
 					(effects
 						(font
@@ -1223,8 +1223,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_27"
 					(effects
 						(font
@@ -1241,8 +1241,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_28"
 					(effects
 						(font
@@ -1259,8 +1259,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 2.54 180)
-				(length 5.08)
+				(at 11.43 2.54 180)
+				(length 2.54)
 				(name "IO3"
 					(effects
 						(font
@@ -1277,8 +1277,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_29"
 					(effects
 						(font
@@ -1295,8 +1295,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+				(at 0 -15.24 90)
+				(length 2.54) hide
 				(name "GND_30"
 					(effects
 						(font
@@ -1313,8 +1313,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_2"
 					(effects
 						(font
@@ -1331,8 +1331,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 10.16 0)
-				(length 5.08)
+				(at -11.43 10.16 0)
+				(length 2.54)
 				(name "EN"
 					(effects
 						(font
@@ -1349,8 +1349,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 6.35 0)
-				(length 5.08) hide
+				(at -11.43 6.35 0)
+				(length 2.54) hide
 				(name "NC_3"
 					(effects
 						(font

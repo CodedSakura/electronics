@@ -1,4 +1,4 @@
-23160902920110740
+23171183083614023
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53683,6 +53683,13 @@ ESP32-S2  ESP32  WIFI
 43
 43
 Custom
+LED_MP001251_3.5x2.8mm
+Surface Mount RGB LED 3.5mm × 2.8mm
+LED RGB multicomp
+0
+4
+4
+Custom
 R_0603_HandSolder_ValuePrinted
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor handsolder
@@ -53690,12 +53697,19 @@ resistor handsolder
 2
 2
 Custom
+SW_SPDT_CK_JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+Custom
 U-DNF2030-6
 
 
 0
-0
-0
+7
+7
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -94786,3 +94800,31 @@ CON_532540670_MOL
 0
 6
 6
+footprints
+RES_YC248_4X1P6_YAG
+
+YC248-JR-074K7L 
+0
+16
+16
+footprints
+RES_YC248_4X1P6_YAG-L
+
+YC248-JR-074K7L 
+0
+16
+16
+footprints
+RES_YC248_4X1P6_YAG-M
+
+YC248-JR-074K7L 
+0
+16
+16
+footprints
+S2BPHSM4TBLFSN
+S2B-PH-SM4-TB(LF)(SN)-2
+Connector
+0
+4
+4

@@ -65,16 +65,4 @@
 		)
 		(uuid "4d2455c4-2c50-4bd9-8a13-9a83f75a5043")
 	)
-	(hierarchical_label "C-"
-		(shape input)
-		(at 107.95 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "780cc166-37d7-41a6-a973-5093a7bfb38b")
-	)
 )
