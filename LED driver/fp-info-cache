@@ -1,4 +1,4 @@
-23171183083614023
+23172896578684649
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53690,6 +53690,13 @@ LED RGB multicomp
 4
 4
 Custom
+L_Coilcraft_LPS4012
+SMD Inductor Coilcraft LPS4012 https://www.coilcraft.com/pdfs/lps4012.pdf
+L Coilcraft LPS4012
+0
+2
+2
+Custom
 R_0603_HandSolder_ValuePrinted
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor handsolder
@@ -53701,8 +53708,8 @@ SW_SPDT_CK_JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
 0
-3
-3
+5
+4
 Custom
 U-DNF2030-6
 
