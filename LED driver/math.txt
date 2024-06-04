@@ -19,6 +19,8 @@ math:
 
 pcb:
 @1.2A:
-  trace width = ~.4mm
+  trace width > .4mm
+@3A:
+  trace width > 1.35mm
 @6A:
-  trace width = ~3.5mm
+  trace width > 3.6mm
