@@ -9017,7 +9017,7 @@
 				)
 			)
 		)
-		(property "Value" "24VDC 10A"
+		(property "Value" "24VDC 5A"
 			(at 46.99 152.4 90)
 			(effects
 				(font
@@ -10909,7 +10909,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7407c81d-aad8-4bac-9248-c912ad4bc944")
 		(property "Reference" "D3"
@@ -10930,7 +10930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 166.37 152.4 0)
 			(effects
 				(font
@@ -12189,7 +12189,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c5486735-f6dc-4911-b91b-448688ecd14a")
 		(property "Reference" "R17"
 			(at 168.148 163.8299 0)
@@ -12209,7 +12209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.148 165.1 90)
 			(effects
 				(font
